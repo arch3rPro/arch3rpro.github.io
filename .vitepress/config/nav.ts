@@ -7,15 +7,6 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: '^/blog',
     },
     {
-        text: '下载',
-        link: '/example',
-    },
-
-    {
-        text: '导航',
-        link: '/nav',
-    },
-    {
         text: '软件推荐',
         items: [
             {
@@ -27,6 +18,14 @@ export const nav: DefaultTheme.NavItem[] = [
             },
         ],
         activeMatch: '^/efficiency'
+    },
+    {
+        text: '下载',
+        link: '/download'
+    },
+    {
+        text: '导航',
+        link: '/nav',
     },
     {
         text: '近期资讯',

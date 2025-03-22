@@ -1,6 +1,6 @@
 import type { NavData } from '../../.vitepress/theme/types'
 
-export const EXAMPLE_DATA = [
+export const DOWNLOAD_DATA = [
   {
     title: 'VMware Workstation',
     description: 'x64 ｜ VM虚拟机 ｜ Mac Intel芯片',
@@ -14,8 +14,8 @@ export const EXAMPLE_DATA = [
     description: 'arm64 ｜Mac M系芯片 ｜ Fusion',
     icon: 'VMware_Fusion.png',
     downloadUrl: 'https://example.com/download2.zip',
-    disabled: false,
-    buttonText: '下载'
+    disabled: true,
+    buttonText: '即将上线'
   },
   {
     title: 'Parallels Desktop',

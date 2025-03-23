@@ -1,6 +1,6 @@
 ---
 description: 导航
-layoutClass: m-nav-layout
+# layoutClass: m-nav-layout
 outline: [2, 3, 4]
 showArticleMetadata: false
 editLink: false

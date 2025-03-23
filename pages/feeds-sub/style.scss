@@ -1,0 +1,25 @@
+/* 覆盖全局的 vp-layout-max-width（仅当前页面使用） */
+.container {
+  max-width: var(--vp-layout-max-width) !important;
+}
+
+.content-container,
+.content {
+  max-width: 100% !important;
+}
+
+/* 确保FeedsSub组件的宽度一致 */
+.m-center {
+  width: 100%;
+}
+
+.m-con {
+  max-width: 90%;
+  margin: 0 auto;
+  @media (min-width: 640px) {
+    width: 70%;
+  }
+  @media (min-width: 1024px) {
+    width: 80%;
+  }
+}

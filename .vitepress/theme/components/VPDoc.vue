@@ -14,20 +14,17 @@ const VPDoc = DefaultTheme.Layout.VPDoc
 
 <style scoped>
 :deep(.content-container) {
-  max-width: 1200px !important;
+  max-width: 100% !important;
 }
 
 :deep(.content) {
-  max-width: 960px !important;
+  max-width: 100% !important;
+  padding: 0 32px;
 }
 
 @media (min-width: 1440px) {
-  :deep(.content-container) {
-    max-width: 1440px !important;
-  }
-
   :deep(.content) {
-    max-width: 1024px !important;
+    padding: 0 64px;
   }
 }
 </style>

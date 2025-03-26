@@ -62,7 +62,7 @@ const pageName = computed(() =>
   </div>
 </template>
 
-<style scoped>
+<style>
 .VPDoc {
   padding: 32px 24px 96px;
   width: 100%;
@@ -189,5 +189,9 @@ const pageName = computed(() =>
 
 .VPDoc.has-aside .content-container {
   max-width: 960px;
+}
+
+:deep(.content-container) {
+  max-width: 100% !important;
 }
 </style>

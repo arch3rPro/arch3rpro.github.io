@@ -56,6 +56,11 @@ export default {
   // },
 
   enhanceApp({ app, router }: EnhanceAppContext) {
+    // 注册自定义组件
+    app.component('Comment', comment)
+    app.component('ImageViewer', imageViewer)
+    app.component('FootBefore', footBefore)
+
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,

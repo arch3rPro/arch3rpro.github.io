@@ -6,6 +6,7 @@ import DefaultTheme from 'vitepress/theme'
 import comment from './components/comment.vue'
 import imageViewer from './components/imageViewer.vue'
 import footBefore from './components/footBefore.vue'
+import VPDoc from './components/VPDoc.vue'
 
 import './styles/index.scss'
 
@@ -60,6 +61,7 @@ export default {
     app.component('Comment', comment)
     app.component('ImageViewer', imageViewer)
     app.component('FootBefore', footBefore)
+    app.component('VPDoc', VPDoc)
 
     if (typeof window !== 'undefined') {
       watch(

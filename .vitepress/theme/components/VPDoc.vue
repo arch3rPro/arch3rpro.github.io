@@ -189,7 +189,33 @@ const pageName = computed(() =>
 }
 
 .VPDoc.has-aside .content-container {
-  max-width: 960px;
+  max-width: 100% !important;
+}
+
+@media (min-width: 960px) {
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: 100% !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .VPDoc .container {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: 100% !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .container {
+    max-width: 100% !important;
+  }
 }
 
 :deep(.content) {

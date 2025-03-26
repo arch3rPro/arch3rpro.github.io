@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { useRoute } from 'vitepress'
 import { computed } from 'vue'
-import { useData } from 'vitepress/theme'
-import { useSidebar } from 'vitepress/theme'
-import VPDocAside from 'vitepress/theme/components/VPDocAside.vue'
-import VPDocFooter from 'vitepress/theme/components/VPDocFooter.vue'
+import { useData } from '../composables/data'
+import { useSidebar } from '../composables/sidebar'
+import VPDocAside from './VPDocAside.vue'
+import VPDocFooter from './VPDocFooter.vue'
 
 const { theme } = useData()
 
@@ -185,47 +185,9 @@ const pageName = computed(() =>
 
 .content-container {
   margin: 0 auto;
-  max-width: 100% !important;
 }
 
 .VPDoc.has-aside .content-container {
-  max-width: 100% !important;
-}
-
-@media (min-width: 960px) {
-  .VPDoc:not(.has-sidebar) .content {
-    max-width: 100% !important;
-  }
-
-  .VPDoc:not(.has-sidebar) .container {
-    max-width: 100% !important;
-  }
-}
-
-@media (min-width: 1280px) {
-  .VPDoc .container {
-    max-width: 100% !important;
-  }
-}
-
-@media (min-width: 1440px) {
-  .VPDoc:not(.has-sidebar) .content {
-    max-width: 100% !important;
-  }
-
-  .VPDoc:not(.has-sidebar) .container {
-    max-width: 100% !important;
-  }
-}
-
-:deep(.content) {
-  max-width: 100% !important;
-  padding: 0 32px;
-}
-
-@media (min-width: 1440px) {
-  :deep(.content) {
-    padding: 0 64px;
-  }
+  max-width: 960px;
 }
 </style>

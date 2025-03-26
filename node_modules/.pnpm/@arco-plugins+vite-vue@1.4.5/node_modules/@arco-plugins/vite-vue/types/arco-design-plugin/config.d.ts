@@ -1,0 +1,12 @@
+declare type Matchers = [string, number?];
+export declare const libraryName = "@arco-design/web-vue";
+export declare const iconCjsListMatchers: Matchers;
+export declare const iconComponentMatchers: Matchers;
+export declare const lessMatchers: Matchers;
+export declare const fullLessMatchers: Matchers;
+export declare const globalLessMatchers: Matchers;
+export declare const componentLessMatchers: Matchers;
+export declare const fullCssMatchers: Matchers;
+export declare const globalCssMatchers: Matchers;
+export declare const componentCssMatchers: Matchers;
+export {};

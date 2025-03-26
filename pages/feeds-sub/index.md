@@ -1,10 +1,10 @@
 ---
 title: Feeds-Sub
+layoutClass: m-feeds-sub
 outline: false
 showArticleMetadata: false
 editLink: false
 showComment: false
-aside: false
 # layout: page
 ---
 

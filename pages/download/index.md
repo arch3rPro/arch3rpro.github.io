@@ -1,6 +1,6 @@
 ---
 title: 下载页面
-# layoutClass: m-download-layout
+layoutClass: m-download-layout
 outline: false
 showArticleMetadata: false
 editLink: false

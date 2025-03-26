@@ -1,24 +1,21 @@
 
 
-//  .m-download-layout {
-  /* 覆盖全局的 vp-layout-max-width（仅当前页面使用） */
-  // --vp-layout-max-width: 1660px; 
-
+/* 使用作用域隔离样式 */
+.m-download-layout {
   /* hero 样式 */
   .hero {
-    
     position: relative;
     padding: 48px 24px;
     background-color: var(--vp-c-bg-soft);
     overflow: hidden;
     border-radius: 12px;
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 1152px;
-      margin: 0 auto;
-      text-align: center;
+  
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 1152px;
+        margin: 0 auto;
+        text-align: center;
 
       h1 {
         margin: 0;
@@ -78,19 +75,9 @@
   }
 
   /* layout 样式 */
-  .container {
-    max-width: var(--vp-layout-max-width) !important;
-  }
-
   .content-container,
   .content {
     max-width: 100% !important;
-  }
-
-  /* aside 样式 */
-  .aside {
-    padding-left: 0;
-    max-width: 224px;
   }
 
   .content .copyright {
@@ -193,4 +180,4 @@
 
     }
   }
-//  }
+}

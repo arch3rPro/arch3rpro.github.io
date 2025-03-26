@@ -1,7 +1,7 @@
 ---
-description: 导航
-# layoutClass: m-nav-layout
-outline: [2, 3, 4]
+title: 导航
+layoutClass: m-nav-layout
+outline: false
 showArticleMetadata: false
 editLink: false
 showComment: false

@@ -30,6 +30,11 @@ samp {
     }
 
     .VPNav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: var(--vp-z-index-nav);
 
         // 借鉴 https://cn.vuejs.org 的处理
         .DocSearch-Button-Placeholder {

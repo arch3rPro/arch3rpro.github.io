@@ -2,4 +2,4 @@
 showArticleMetadata: false
 ---
 
-<ClientOnly><Redirect route="/mac/keymap"/></ClientOnly>
+<ClientOnly><Redirect route="/mac"/></ClientOnly>

@@ -18,9 +18,14 @@ export const nav: DefaultTheme.NavItem[] = [
         link: '/feeds-sub'
     },
     {
-        text: "博客",
+        text: "博客笔记",
         link: '/blog',
         activeMatch: '^/blog',
+    },
+    {
+        text: "教程文档",
+        link: '/tutorial',
+        activeMatch: '^/tutorial',
     },
     {
         text: '软件推荐',

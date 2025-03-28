@@ -20,7 +20,7 @@
             <span class="post-copyright-meta">版权声明：</span>
             <span>
                 本博客所有文章除特别声明外，均采用 <a :href="theme.copyrightConfig.licenseLink" target="_blank">CC BY-NC-SA
-                    4.0</a>许可协议。转载请注明来自 <a :href="articleLink">YY's Blog'</a>！
+                    4.0</a>许可协议。转载请注明来自 <a :href="articleLink">arch3rPro's Blog'</a>！
             </span>
         </div>
     </div>

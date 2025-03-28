@@ -7,8 +7,9 @@ const sinceDate = "2024-04-17T00:00:00Z";
 const untilDate = dayjs().add(1, 'day').format('YYYY-MM-DDT23:59:59Z');
 
 // 使用git log命令获取指定日期范围内的提交信息，包含文件名
-const gitLogCmd = `git log --since="${sinceDate}" --until="${untilDate}" --name-only --pretty=format:"%cd" --date=format:"%Y-%m-%dT%H:%M:%SZ"`;
-const output = execSync(gitLogCmd, { encoding: 'utf-8' });
+const gitLogCmd = `git log --since="${sinceDate}" --until="${untilDate}" --name-only --pretty=format:"%cd" --date=format:"%Y-%m-%dT%H:%M:%SZ" --max-count=1000`;
+try {
+    const output = execSync(gitLogCmd, { encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024 });
 
 // 上一个日期变量，用来判断是否是新的提交记录开始
 let lastDate = null;
@@ -49,5 +50,10 @@ function filterData(data) {
 }
 
 const filteredData = filterData(results);
+
+} catch (error) {
+    console.error('执行git log命令时出错:', error);
+    fs.writeFileSync('heatmap-data.json', JSON.stringify([]));
+}
 
 fs.writeFileSync('heatmap-data.json', JSON.stringify(filteredData))

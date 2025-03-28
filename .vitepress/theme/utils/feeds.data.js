@@ -9,7 +9,9 @@ let feeds = [
     {url: "https://wechat2rss.xlab.app/feed/19e49fc43c29d227aed74edba9830e7e1c71161e.xml", name: "CT-Stack"},
     {url: "https://www.exploit-db.com/rss.xml", name: "Exploit-DB"},
     {url: "https://wechat2rss.xlab.app/feed/d351be711510e0b7ccbcb275cdfab5c4c7e3e839.xml", name: "嘶吼专业版"},
-    {url: "https://infosecwriteups.com/feed", name: "InfoSec"}
+    {url: "https://infosecwriteups.com/feed", name: "InfoSec"},
+    {url: "https://www.jiqizhixin.com/rss", name: "机器之心"},
+    {url: "https://feeds.feedburner.com/ruanyifeng", name: "阮一峰"}
 ];
 
 (async () => {

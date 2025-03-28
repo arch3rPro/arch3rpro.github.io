@@ -1,7 +1,19 @@
 .m-feeds-sub {
-  /* 覆盖全局的 vp-layout-max-width（仅当前页面使用） */
+  // --vp-layout-max-width: 1376px; /* 与nav组件保持一致的最大宽度 */
+  margin-top: 0;
+  padding-top: 0;
 
-
+  /* 导航栏样式 */
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: var(--vp-nav-bg-color);
+    backdrop-filter: saturate(50%) blur(8px);
+  }
+  
   .content-container,
   .content {
     max-width: 100% !important;
@@ -9,12 +21,134 @@
 
   /* 确保FeedsSub组件的宽度一致 */
   .m-center {
-    width: 120%;
+    width: 100%
   }
 
   .m-con {
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: var(--vp-layout-max-width);
     margin: 0 auto;
+    padding: 0 24px;
+  }
+  .mt-8 {
+    margin-top: 0rem;
+}
+  /* 文章列表样式优化 */
+  .pt-5 {
+    margin-bottom: 2rem;
+
+    header {
+      margin-bottom: 1rem;
+      h1 {
+        color: var(--vp-c-text-1);
+        font-weight: 600;
+      }
+    }
+
+    .flex {
+      // padding: 0.5rem 0;
+      border-bottom: 1px dashed var(--vp-c-divider);
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: var(--vp-c-bg-soft);
+      }
+
+      .basis-1\/6 {
+        color: var(--vp-c-text-2);
+      }
+
+      .basis-4\/6 {
+        padding: 0 1rem;
+      }
+
+      .basis-2\/6 {
+        text-align: right;
+        color: var(--vp-c-text-2);
+      }
+    }
+  }
+  
+  /* 优化标签容器布局 */
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+    justify-content: flex-start;
+
+    .tag-item {
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--vp-c-divider);
+      border-radius: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--vp-c-text-2);
+      background: var(--vp-c-bg);
+      transition: all 0.3s ease;
+
+      &:hover, &.active {
+        color: var(--vp-c-brand);
+        border-color: var(--vp-c-brand);
+        background: var(--vp-c-brand-dimm);
+      }
+    }
+  }
+  
+  /* 确保标签按钮在移动设备上正常显示 */
+  /* 分页控件样式 */
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+
+    .pagination-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--vp-c-divider);
+      border-radius: 0.5rem;
+      color: var(--vp-c-text-2);
+      background: var(--vp-c-bg);
+      transition: all 0.3s ease;
+
+      &:hover:not(:disabled) {
+        color: var(--vp-c-brand);
+        border-color: var(--vp-c-brand);
+        background: var(--vp-c-brand-dimm);
+      }
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+
+    .pagination-info {
+      color: var(--vp-c-text-2);
+    }
+  }
+
+  /* 移动设备适配 */
+  @media (max-width: 640px) {
+    .m-con {
+      padding: 0 16px;
+    }
+    .tag-item {
+      min-width: 70px;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.85rem;
+    }
+    .basis-2\/6 {
+      display: none;
+    }
+    .pagination-container {
+      gap: 0.5rem;
+      .pagination-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+      }
+      .pagination-info {
+        font-size: 0.85rem;
+      }
+    }
   }
 }

@@ -1,6 +1,6 @@
 ---
-title: 导航
-layoutClass: m-nav-layout
+title: AI工具箱
+layoutClass: m-ainav-layout
 outline: [2, 3, 4]
 navbar: true
 sidebar: true
@@ -14,10 +14,11 @@ import { NAV_DATA } from './data'
 </script>
 <style src="./style.scss"></style>
 
-# 工具导航
+# AI工具箱
 
 ::: info
-* 🤔 整理本人生活工作中常用的一些站点
+* 本工具箱主要是记录一些AI相关的知识和工具
+* 主要是一些AI的基础知识、AI的应用场景、AI的工具、AI的模型、AI的算法、AI的应用案例等
 :::
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>

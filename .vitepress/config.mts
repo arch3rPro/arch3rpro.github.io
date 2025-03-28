@@ -9,7 +9,7 @@ import { algolia } from './config/algolia'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 基础路径
-  base: '/wiki/',
+  base: '/',
   // 基础配置
   head: head,
   lang: metaData.lang,

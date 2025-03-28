@@ -2,6 +2,22 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.NavItem[] = [
     {
+        text: '矛盾武器库',
+        link: '/download/'
+    },
+    {
+        text: '安全导航',
+        link: '/nav',
+    },
+    {
+        text: 'AI工具箱',
+        link: '/ai',
+    },
+    {
+        text: '近期资讯',
+        link: '/feeds-sub'
+    },
+    {
         text: "博客",
         link: '/blog',
         activeMatch: '^/blog',
@@ -18,18 +34,6 @@ export const nav: DefaultTheme.NavItem[] = [
             },
         ],
         activeMatch: '^/efficiency'
-    },
-    {
-        text: '下载',
-        link: '/download'
-    },
-    {
-        text: '导航',
-        link: '/nav',
-    },
-    {
-        text: '近期资讯',
-        link: '/feeds-sub'
     },
     {
         text: '关于',

@@ -22,11 +22,10 @@ export const nav: DefaultTheme.NavItem[] = [
         link: '/blog',
         activeMatch: '^/blog',
     },
-    {
-        text: "教程文档",
-        link: '/tutorial',
-        activeMatch: '^/tutorial',
-    },
+    // {
+    //     text: "教程文档",
+    //     link: '/tutorial',
+    // },
     {
         text: '软件推荐',
         items: [

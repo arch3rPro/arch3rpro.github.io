@@ -104,7 +104,7 @@ features:
 }
 /* 修改960px以上默认显示3个卡片 */
 @media (min-width: 960px) {
-    .item.grid-4[data-v-0572b10d] {
+    .m-page-layout .item.grid-4 {
         width: calc(100% / 3);
     }
 }

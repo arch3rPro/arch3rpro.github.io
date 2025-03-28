@@ -1,5 +1,4 @@
 .m-feeds-sub {
-  --vp-layout-max-width: 1376px; /* 与nav组件保持一致的最大宽度 */
   margin-top: 0;
   padding-top: 0;
 
@@ -22,6 +21,13 @@
   /* 确保FeedsSub组件的宽度一致 */
   .m-center {
     width: 100%
+  }
+  
+  /* 覆盖VPDoc容器宽度 */
+  @media (min-width: 1440px) {
+    .VPDoc:not(.has-sidebar) .container {
+      max-width: 1440px !important;
+    }
   }
 
   .m-con {

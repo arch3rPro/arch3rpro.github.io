@@ -98,9 +98,10 @@ lastUpdated: false
 
 ## 📮 联系方式
 
-📧 邮箱：<a href="mailto:wh1tecat@protonmail.com">wh1tecat@protonmail.com</a>
-
-🐱 GitHub：[arch3rPro](https://github.com/arch3rPro)
+<p>
+    <img src="https://img.shields.io/badge/-Mail_To-8B89CC?logo=protonmail&logoColor=white" alt="Email" style="display: inline-block; margin-right: 5px;" />：<a href="mailto:wh1tecat@protonmail.com">wh1tecat@protonmail.com</a><br/>
+    <img src="https://img.shields.io/badge/-Github-2496ED?logo=github&logoColor=white" alt="GitHub" style="display: inline-block; margin-right: 5px;" />：<a href="https://github.com/arch3rPro">https://github.com/arch3rPro</a>
+</p>
 
 ## 🍲 鸡汤理念
 

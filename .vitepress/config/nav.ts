@@ -40,7 +40,7 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: '^/efficiency'
     },
     {
-        text: '关于',
+        text: '关于我',
         link: '/about'
     }
 ]

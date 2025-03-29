@@ -1,7 +1,7 @@
 ---
 title: VitePress博客-主题介绍
 description: vitepress1.0版本发布了，挺好看的，用来搭建一个博客看看
-date: 2024-04-29 20:34:56
+date: 2025-01-29 20:34:56
 tags:
   - VitePress
 ---

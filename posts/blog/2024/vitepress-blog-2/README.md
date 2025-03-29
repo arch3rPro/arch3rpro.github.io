@@ -1,7 +1,7 @@
 ---
 title: VitePress博客-添加热力图
 description: 如何给VitePress博客添加文章热力图HeatMap，像Github Profile那样，本文教你来实现
-date: 2024-05-06 17:37:25
+date: 2025-01-06 17:37:25
 tags:
   - VitePress
 ---
@@ -112,7 +112,7 @@ function paint(cal: CalHeatmap, theme: 'light' | 'dark') {
             },
             date: {
                 start: dayjs().subtract(12, 'month').valueOf(),
-                min: dayjs("2023-01-01").valueOf(),
+                min: dayjs("2025-01-01").valueOf(),
                 max: dayjs(),
                 locale: 'zh',
                 timezone: 'Asia/Shanghai',
@@ -276,7 +276,7 @@ import fs from 'fs';
 import dayjs from 'dayjs';
 
 // 设置日期范围
-const sinceDate = "2024-04-17T00:00:00Z"; 
+const sinceDate = "2025-01-01T00:00:00Z"; 
 const untilDate = dayjs().add(1, 'day').format('YYYY-MM-DDT23:59:59Z');
 
 // 使用git log命令获取指定日期范围内的提交信息，包含文件名

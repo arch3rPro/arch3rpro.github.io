@@ -3,7 +3,7 @@ import fs from 'fs';
 import dayjs from 'dayjs';
 
 // 设置日期范围
-const sinceDate = "2024-04-17T00:00:00Z"; 
+const sinceDate = "2025-01-11T00:00:00Z"; 
 const untilDate = dayjs().add(1, 'day').format('YYYY-MM-DDT23:59:59Z');
 
 // 使用git log命令获取指定日期范围内的提交信息，包含文件名

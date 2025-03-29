@@ -1,7 +1,7 @@
 ---
 title: pnpm patch使用
 description: 在前端项目依赖三方包出现问题时，可以通过打patch的方式进行包的修改，比直接改node_modules优雅
-date: 2024-05-08 23:04:56
+date: 2025-01-08 23:04:56
 tags:
   - 前端
 ---

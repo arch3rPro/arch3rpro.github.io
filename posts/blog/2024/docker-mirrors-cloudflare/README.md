@@ -1,7 +1,7 @@
 ---
 title: 利用CloudFlare自建Docker镜像站
 description: docker hub国内镜像源都下线，在网络上搜集到了利用CloudFlare Workers自建Docker镜像站的办法
-date: 2024-06-20 12:50:06
+date: 2025-02-20 12:50:06
 tags:
   - Docker
   - CloudFlare

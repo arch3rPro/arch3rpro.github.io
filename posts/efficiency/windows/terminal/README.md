@@ -1,7 +1,7 @@
 ---
 title: "美化Windows Terminal"
 description: "给Windows的Terminal美化展示以及增加自动提示，oh-my-posh"
-date: 2024-05-26 18:56:27
+date: 2025-01-26 18:56:27
 tags: ["Windows"]
 ---
 

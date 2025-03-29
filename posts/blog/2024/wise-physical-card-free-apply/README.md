@@ -1,7 +1,7 @@
 ---
 title: Wise实体卡免费申请(免入金)
 description: 2024获取Wise实体卡，免入金，免地址证明，无需转运的方法
-date: 2024-07-25 22:32:03
+date: 2025-01-25 22:32:03
 tags:
   - CrossBorder
 ---

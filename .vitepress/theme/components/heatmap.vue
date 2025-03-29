@@ -91,7 +91,7 @@ function paint(cal: CalHeatmap, theme: 'light' | 'dark') {
             },
             date: {
                 start: dayjs().subtract(12, 'month').valueOf(),
-                min: dayjs("2023-01-01").valueOf(),
+                min: dayjs("2025-01-01").valueOf(),
                 max: dayjs(),
                 locale: 'zh',
                 timezone: 'Asia/Shanghai',

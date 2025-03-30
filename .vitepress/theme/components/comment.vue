@@ -18,7 +18,7 @@ const { isDark, frontmatter } = useData();
 
 // params generate in https://giscus.app/zh-CN
 const giscusConfig: GiscusProps = reactive({
-	repo: "arch3rPro/wiki",
+	repo: "arch3rPro/arch3rpro.github.io",
 	repoId: import.meta.env.VITE_GISCUS_REPO_ID,
 	category: "Q&A",
 	categoryId: import.meta.env.VITE_GISCUS_CATEGORY_ID,

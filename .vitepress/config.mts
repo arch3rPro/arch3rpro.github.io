@@ -40,7 +40,7 @@ export default defineConfig({
       level: 'deep'
     },
     editLink: {
-      pattern: 'https://github.com/arch3rPro/wiki/edit/main/:path',
+      pattern: 'https://github.com/arch3rPro/arch3rpro.github.io/edit/main/:path',
       text: '不妥之处，敬请雅正'
     },
     lastUpdated: {
@@ -60,7 +60,7 @@ export default defineConfig({
       // options: algolia,
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/arch3rPro/wiki' }
+      { icon: 'github', link: 'https://github.com/arch3rPro/arch3rpro.github.io' }
     ],
     footer: {
       copyright: 'Copyright © 2019-2025 Arch3rPro\'s Blog | CC BY-NC 4.0 | <a href="https://beian.miit.gov.cn" target="_blank" rel="nofollow noopener" style="text-decoration: none;">京ICP备2023000451号-3</a>'

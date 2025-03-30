@@ -32,6 +32,19 @@ const formatBadge = computed(() => {
     }
     return props.badge
 })
+
+// 安全地获取URL的hostname，避免非http链接导致的错误
+function getHostname(url: string): string {
+    try {
+        if (url.startsWith('http')) {
+            return new URL(url).hostname
+        }
+        return ''
+    } catch (e) {
+        console.error('Invalid URL:', url, e)
+        return ''
+    }
+}
 </script>
 
 <template>
@@ -41,7 +54,10 @@ const formatBadge = computed(() => {
                 <template v-if="!noIcon">
                     <div v-if="svg" class="icon" v-html="svg"></div>
                     <div v-else-if="icon && typeof icon === 'string'" class="icon">
-                        <img :src="withBase(icon)" :alt="title" onerror="this.parentElement.style.display='none'" />
+                        <img :src="icon.startsWith('http') ? `https://www.boltp.com/favicon/${getHostname(icon)}.png` : withBase(icon)" :alt="title" onerror="this.parentElement.style.display='none'" />
+                    </div>
+                    <div v-else class="icon">
+                        <img :src="link.startsWith('http') ? `https://www.boltp.com/favicon/${getHostname(link)}.png` : ''" :alt="title" onerror="this.parentElement.style.display='none'" />
                     </div>
                 </template>
                 <h5 v-if="title" :id="formatTitle" class="title" :class="{ 'no-icon': noIcon }">

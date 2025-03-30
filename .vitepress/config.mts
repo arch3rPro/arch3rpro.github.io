@@ -15,6 +15,8 @@ export default defineConfig({
   lang: metaData.lang,
   title: metaData.title,
   description: metaData.description,
+  // 暗色模式
+  appearance: 'dark',
 
   // 最后更新时间
   lastUpdated: true,
@@ -94,6 +96,6 @@ export default defineConfig({
   ],
 
   sitemap: {
-    hostname: 'https://arch3rpro.github.io/wiki',
+    hostname: 'https://arch3rpro.github.io/arch3rpro.github.io',
   },
 })

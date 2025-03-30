@@ -36,8 +36,12 @@ const formatBadge = computed(() => {
 // 安全地获取URL的hostname，避免非http链接导致的错误
 function getHostname(url: string): string {
     try {
-        if (url.startsWith('http')) {
+        // 确保URL以http或https开头
+        if (url.startsWith('http://') || url.startsWith('https://')) {
             return new URL(url).hostname
+        } else if (url.startsWith('http')) {
+            // 处理可能缺少://的情况
+            return new URL(`https://${url.substring(4)}`).hostname
         }
         return ''
     } catch (e) {
@@ -45,6 +49,42 @@ function getHostname(url: string): string {
         return ''
     }
 }
+
+// 获取图标URL
+const getIconUrl = computed(() => {
+    // 如果icon是对象且有svg属性，则使用svg
+    if (typeof props.icon === 'object' && props.icon?.svg) {
+        return ''
+    }
+    
+    // 如果icon是字符串
+    if (props.icon && typeof props.icon === 'string') {
+        // 如果是完整的http链接并且以图片格式结尾，直接使用该URL
+        if (props.icon.startsWith('http') && (
+            props.icon.endsWith('.ico') || 
+            props.icon.endsWith('.png') || 
+            props.icon.endsWith('.jpg') || 
+            props.icon.endsWith('.jpeg') || 
+            props.icon.endsWith('.svg')
+        )) {
+            return props.icon
+        }
+        // 如果是http链接但不是图片URL，返回favicon服务的URL
+        else if (props.icon.startsWith('http')) {
+            return `https://www.boltp.com/favicon/${getHostname(props.icon)}.png`
+        }
+        // 否则作为本地路径处理
+        return withBase(props.icon)
+    }
+    
+    // 如果icon为空但link是http链接，自动获取favicon
+    if (props.link && props.link.startsWith('http')) {
+        return `https://www.boltp.com/favicon/${getHostname(props.link)}.png`
+    }
+    
+    // 默认返回空
+    return ''
+})
 </script>
 
 <template>
@@ -53,11 +93,8 @@ function getHostname(url: string): string {
             <div class="box-header">
                 <template v-if="!noIcon">
                     <div v-if="svg" class="icon" v-html="svg"></div>
-                    <div v-else-if="icon && typeof icon === 'string'" class="icon">
-                        <img :src="icon.startsWith('http') ? `https://www.boltp.com/favicon/${getHostname(icon)}.png` : withBase(icon)" :alt="title" onerror="this.parentElement.style.display='none'" />
-                    </div>
-                    <div v-else class="icon">
-                        <img :src="link.startsWith('http') ? `https://www.boltp.com/favicon/${getHostname(link)}.png` : ''" :alt="title" onerror="this.parentElement.style.display='none'" />
+                    <div v-else-if="getIconUrl" class="icon">
+                        <img :src="getIconUrl" :alt="title" onerror="this.parentElement.style.display='none'" />
                     </div>
                 </template>
                 <h5 v-if="title" :id="formatTitle" class="title" :class="{ 'no-icon': noIcon }">

@@ -2,6 +2,7 @@
 .vscode
 .env
 .obsidian/
+node_modules/
 dist/
 heatmap-data.json
 feeds-sub-data.json

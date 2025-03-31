@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 3
 title: "Windows平台"
 showArticleMetadata: false
 ---

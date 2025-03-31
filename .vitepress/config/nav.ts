@@ -23,6 +23,10 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: '^/blog',
     },
     // {
+    //     text: "AI工具推荐",
+    //     link: '/efficiency/aitools',
+    // },
+    // {
     //     text: "教程文档",
     //     link: '/tutorial',
     // },
@@ -34,6 +38,7 @@ export const nav: DefaultTheme.NavItem[] = [
                 items: [
                     { text: 'Mac 平台', link: '/efficiency/mac/surge' },
                     { text: 'Windows 平台', link: '/efficiency/windows/keymap' },
+                    { text: 'AI工具推荐', link: '/efficiency/aitools/cherrystudio' },
                 ]
             },
         ],

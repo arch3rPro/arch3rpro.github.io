@@ -1,6 +1,6 @@
 ---
-sort: 3
-title: AI工具箱
+sort: 1
+title: Cherry-Studio
 showArticleMetadata: false
 ---
 

@@ -187,7 +187,7 @@ function sortArticleItems(groups: SidebarItem[]) {
         });
 
         (group.items as SidebarItem[] | undefined)?.forEach((item) => {
-            item.text = `📝 ${item.text}`;
+            item.text = `${item.text}`;
             delete item.date;
         });
     });

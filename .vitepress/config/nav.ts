@@ -44,11 +44,10 @@ export const nav: DefaultTheme.NavItem[] = [
             {
                 text: 'AI工具',
                 items: [
-                     { text: 'Cherry-Studio', link: '/efficiency/cherrystudio/introduce' },
+                     { text: 'Cherry-Studio', link: '/software/cherrystudio/introduce', activeMatch: '/software/cherrystudio/' },
                 ]
             },
         ],
-        activeMatch: '^/efficiency'
     },
     {
         text: '关于我',

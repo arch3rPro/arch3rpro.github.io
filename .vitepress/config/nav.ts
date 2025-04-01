@@ -23,13 +23,13 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: '^/blog',
     },
     // {
-    //     text: "AI工具推荐",
-    //     link: '/efficiency/aitools',
-    // },
-    // {
-    //     text: "教程文档",
-    //     link: '/tutorial',
-    // },
+    //     text: '常用工具推荐',
+    //     items: [
+    //       { text: 'CherryStudio简介', link: '/efficiency/aitools/cherrystudio/index', activeMatch: '/efficiency/aitools/cherrystudio/' },
+    //       { text: 'CherryStudio服务商配置', link: '/efficiency/aitools/cherrystudio/providers/index', activeMatch: '/efficiency/aitools/cherrystudio/providers/' }
+    //     ],
+    //     activeMatch: '/efficiency/'
+    //   },
     {
         text: '软件推荐',
         items: [
@@ -37,8 +37,14 @@ export const nav: DefaultTheme.NavItem[] = [
                 text: '效率工具',
                 items: [
                     { text: 'Mac 平台', link: '/efficiency/mac/surge' },
-                    { text: 'Windows 平台', link: '/efficiency/windows/keymap' },
-                    { text: 'AI工具推荐', link: '/efficiency/aitools/cherrystudio' },
+                    { text: 'Windows 平台', link: '/efficiency/windows/keymap' }
+                    // { text: 'AI工具推荐', link: '/efficiency/aitools/cherrystudio' },
+                ]
+            },
+            {
+                text: 'AI工具',
+                items: [
+                     { text: 'Cherry-Studio', link: '/efficiency/cherrystudio/introduce' },
                 ]
             },
         ],

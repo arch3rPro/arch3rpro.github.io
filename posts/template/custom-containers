@@ -1,0 +1,19 @@
+::: info 信息
+This is an info box.
+:::
+
+::: tip 提示
+This is a tip.
+:::
+
+::: warning 警告
+This is a warning.
+:::
+
+::: danger 危险
+This is a dangerous warning.
+:::
+
+::: details 细节
+This is a details block.
+:::

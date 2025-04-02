@@ -9,6 +9,7 @@ import { nextTick, provide } from 'vue'
 import backtotop from "./backtotop.vue"
 // import notice from "./notice.vue"
 // import bsz from "./bsz.vue"
+import comment from "./comment.vue";
 
 const { isDark } = useData()
 
@@ -51,6 +52,9 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     <template #doc-footer-before>
       <backtotop />
     </template>
+    <template #doc-after>
+      <comment />
+    </template>
   </DefaultTheme.Layout>
 </template>
 
@@ -84,4 +88,8 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   transform: translateX(18px) !important;
 }
 
+footer {
+  margin: 0;
+  padding: 0;
+}
 </style>

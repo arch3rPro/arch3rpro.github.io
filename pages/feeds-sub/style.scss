@@ -66,6 +66,7 @@
 
       .basis-4\/6 {
         padding: 0 1rem;
+        flex-basis:100%;
       }
 
       .basis-2\/6 {
@@ -143,6 +144,7 @@
       padding: 0.4rem 0.8rem;
       font-size: 0.85rem;
     }
+    .basis-1\/6,
     .basis-2\/6 {
       display: none;
     }

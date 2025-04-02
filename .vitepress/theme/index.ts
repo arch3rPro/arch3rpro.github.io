@@ -6,11 +6,14 @@ import DefaultTheme from 'vitepress/theme'
 import comment from './components/comment.vue'
 import imageViewer from './components/imageViewer.vue'
 import footBefore from './components/footBefore.vue'
+import MyLayout from './components/MyLayout.vue'
+import DataPanel from "./components/DataPanel.vue"
 
 import './styles/index.scss'
 
 import ArticleGPT from './components/ArticleGPT.vue';
-
+import { inBrowser } from 'vitepress'
+import busuanzi from 'busuanzi.pure.js'
 
 
  
@@ -38,6 +41,8 @@ if (typeof window !== 'undefined') {
 
 export default {
   extends: DefaultTheme,
+
+  // Layout: MyLayout, 
   Layout: () => {
     const props: Record<string, any> = {}
     const { frontmatter } = useData()
@@ -47,8 +52,13 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+    // return h(DefaultTheme.Layout, props, {
+    //   // https://vitepress.dev/guide/extending-default-theme#layout-slots
+    //   "doc-after": () => h(comment),
+    //   "doc-bottom": () => h(imageViewer),
+    //   "doc-footer-before": () => h(footBefore),
+    // })
+    return h(MyLayout, props, {
       "doc-after": () => h(comment),
       "doc-bottom": () => h(imageViewer),
       "doc-footer-before": () => h(footBefore),
@@ -57,7 +67,7 @@ export default {
   enhanceApp({ app, router }: EnhanceAppContext) {
 
     app.component('ArticleGPT', ArticleGPT);
-    
+    app.component('DataPanel' , DataPanel);
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,
@@ -65,7 +75,12 @@ export default {
         { immediate: true }
       )
     }
-  }
+    if (inBrowser) {
+      router.onAfterRouteChange = () => {
+        busuanzi.fetch()
+      }
+    }
+  } 
 
   // Layout: () => {
   //   return h(DefaultTheme.Layout, null, {

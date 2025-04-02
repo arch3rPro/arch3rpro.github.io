@@ -81,6 +81,20 @@ export default defineConfig({
 
   // markdown配置
   markdown: markdown,
+  // markdown: {
+  //   config(md) {
+  //     md.core.ruler.before('normalize', 'inject-content', (state) => {
+  //       // 获取当前 Markdown 文件的 frontmatter 信息
+  //       const frontmatter = state.env.frontmatter;
+  
+  //       // 检查 frontmatter 是否包含 `show: true`
+  //       if (frontmatter && frontmatter.show === true) {
+  //         // 动态注入内容
+  //         state.src = `<ArticleGPT />\n\n${state.src}`;
+  //       }
+  //     });
+  //   }
+  // },
 
   // 路由重写
   rewrites: {

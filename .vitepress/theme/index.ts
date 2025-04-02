@@ -9,6 +9,12 @@ import footBefore from './components/footBefore.vue'
 
 import './styles/index.scss'
 
+import ArticleGPT from './components/ArticleGPT.vue';
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
+
+ 
 if (typeof window !== 'undefined') {
   /* 注销 PWA 服务 */
   if (window.navigator && navigator.serviceWorker) {
@@ -49,13 +55,10 @@ export default {
       "doc-footer-before": () => h(footBefore),
     })
   },
-  // enhanceApp(ctx) {
-  //     DefaultTheme.enhanceApp(ctx);
-
-  //     ctx.app.component('ArticleMetadata', ArticleMetadata);
-  // },
-
   enhanceApp({ app, router }: EnhanceAppContext) {
+    app.use(ElementPlus);
+    app.component('ArticleGPT', ArticleGPT);
+    
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,

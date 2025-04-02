@@ -25,9 +25,6 @@ samp {
 
 /* nav 换行问题（6 个还是有点小多，后面看看怎么优化） */
 @media (max-width: 1080px) {
-    :root {
-        // --vp-sidebar-width: 260px;
-    }
 
     .VPNav {
         position: fixed;

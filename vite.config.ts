@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import Components from 'unplugin-vue-components/vite'
-import { ArcoResolver, ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import { ArcoResolver } from 'unplugin-vue-components/resolvers'
 
 
 export default defineConfig({
@@ -10,12 +10,12 @@ export default defineConfig({
             include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
             resolvers: [
                 ArcoResolver({ sideEffect: true, resolveIcons: true }),
-                ElementPlusResolver()
+                
             ],
             dts: true,
         })
     ],
-    ssr: { noExternal: ['@arco-design/web-vue', 'element-plus'] },
+    ssr: { noExternal: ['@arco-design/web-vue'] },
     build: {
         chunkSizeWarningLimit: 1500
     },

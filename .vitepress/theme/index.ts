@@ -10,8 +10,7 @@ import footBefore from './components/footBefore.vue'
 import './styles/index.scss'
 
 import ArticleGPT from './components/ArticleGPT.vue';
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
+
 
 
  
@@ -56,7 +55,7 @@ export default {
     })
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
-    app.use(ElementPlus);
+
     app.component('ArticleGPT', ArticleGPT);
     
     if (typeof window !== 'undefined') {

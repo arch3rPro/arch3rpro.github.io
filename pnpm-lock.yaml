@@ -76,6 +76,9 @@ importers:
       '@types/node':
         specifier: ^20.17.24
         version: 20.17.28
+      busuanzi.pure.js:
+        specifier: ^1.0.3
+        version: 1.0.3
       sass:
         specifier: ^1.85.1
         version: 1.86.0
@@ -997,6 +1000,9 @@ packages:
     resolution: {integrity: sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
+
+  busuanzi.pure.js@1.0.3:
+    resolution: {integrity: sha512-tPULdyx+8NNb9geZYDpktKmHAYx9f2LEOBaHyWCaM7iPEMIa/43KgYAUluuU7YG9UFSOFpj4dO7Nj2Vlu3V9Rg==}
 
   cal-heatmap@4.2.4:
     resolution: {integrity: sha512-TTNoQTRxHXrttOEbkraKv9vy2VpfQIwVLQJTlAfcBusQK9qrBL/UBO+WloAxv2yrR+P8URA2cuXEdc5iztER9g==}
@@ -3415,6 +3421,8 @@ snapshots:
       electron-to-chromium: 1.5.128
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
+
+  busuanzi.pure.js@1.0.3: {}
 
   cal-heatmap@4.2.4(patch_hash=a7c1ef99cdceb39e14bd2e9b5fd0bd879b19693ee7c86b96028f178c8a546c3e):
     dependencies:

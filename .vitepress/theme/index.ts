@@ -77,7 +77,9 @@ export default {
     }
     if (inBrowser) {
       router.onAfterRouteChange = () => {
-        busuanzi.fetch()
+        setTimeout(() => {
+          busuanzi.fetch()
+        }, 100)
       }
     }
   } 

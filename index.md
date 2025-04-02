@@ -38,6 +38,7 @@ features:
 
 <ClientOnly><Heatmap /></ClientOnly>
 
+<DataPanel />
 <style>
 .m-home-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);

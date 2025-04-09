@@ -1,0 +1,21 @@
+/* 确保页脚显示 */
+.VPFooter {
+  display: block !important;
+  padding: 24px 24px;
+  border-top: 1px solid var(--vp-c-gutter);
+  transition: border-top 0.5s;
+}
+
+/* 确保页脚内容正确显示 */
+.VPFooter .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 确保版权文本样式 */
+.VPFooter .copyright {
+  font-size: 14px;
+  margin: 0;
+  color: var(--vp-c-text-2);
+}

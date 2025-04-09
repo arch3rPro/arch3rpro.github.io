@@ -9,7 +9,8 @@ export const sidebar: DefaultTheme.Sidebar = {
     '/review': getItemsByCategory('posts/review'),
     '/softs': getItemsByCategory('posts/softs'),
     '/efficiency': getItemsByCategory('posts/efficiency'),
-    '/software': getItemsByCategory('posts/software')
+    '/software': getItemsByCategory('posts/software'),
+    '/pentest-tools': getItemsByCategory('posts/pentest-tools')
 }
 
 // 定义新类型，继承DefaultTheme.SidebarItem，并增加新字段

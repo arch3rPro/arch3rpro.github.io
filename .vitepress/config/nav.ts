@@ -37,16 +37,34 @@ export const nav: DefaultTheme.NavItem[] = [
                 text: '效率工具',
                 items: [
                     { text: 'Mac 平台', link: '/efficiency/mac/surge' },
-                    { text: 'Windows 平台', link: '/efficiency/windows/keymap' }
-                    // { text: 'AI工具推荐', link: '/efficiency/aitools/cherrystudio' },
+                    { text: 'Windows 平台', link: '/efficiency/windows/keymap' },
+                    { text: '实用软件清单', link: '/efficiency/recommend/browser' },
                 ]
             },
             {
                 text: 'AI工具',
                 items: [
                      { text: 'Cherry-Studio', link: '/software/cherrystudio/introduce', activeMatch: '/software/cherrystudio/' },
+                     { text: 'Lobe-Chat', link: '/software/lobechat/install', activeMatch: 'lobechat/install/' },
                 ]
             },
+        ],
+    },
+    {
+        text: '工具手册', 
+        items: [
+            {
+                text: '常用工具',
+                items: [
+                    { text: 'SQLmap', link: '/pentest-tools/top/sqlmap', activeMatch: '/pentest-tools/top/' },
+               ]
+            },
+            // {
+            //     text: 'AI工具',
+            //     items: [
+            //          { text: 'Cherry-Studio', link: '/software/cherrystudio/introduce', activeMatch: '/software/cherrystudio/' },
+            //     ]
+            // },
         ],
     },
     {

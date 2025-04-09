@@ -7,6 +7,7 @@ dist/
 heatmap-data.json
 feeds-sub-data.json
 components.d.ts
+Clipper/
 
 .vitepress/cache/
 .vitepress/dist/

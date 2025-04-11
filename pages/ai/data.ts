@@ -2,7 +2,7 @@ import type { NavData } from '../../.vitepress/theme/types'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: 'AI聊天应用',
+    title: '💬 AI聊天应用',
     items: [
       {
         icon: '',
@@ -82,7 +82,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'LLM客户端',
+    title: '🖥️ LLM客户端',
     items: [
       {
         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAIAAAD9b0jDAAADV0lEQVR4AWIY6oAJwQy18wq196PUQBER8RLDi/wMlsWhqXsmnVhYs2dW3vpN9ZsmZ7dXx5QVR1XlhBaZqRmQbK6FdOTkpJYNLWeWluwHoklJ25LcFuV5zi3MWVNZtR6I+lp3JwXkAFVKGInqxmgQNhHollmVB6oDF52tWHC5YfHV1jU3+ncdaj0wOWxRTfLCwvi+9NCW9Ny5E/vO8QLaKQfY3IIgCu/zi55t27Zt27Zt27Zt27Zt1LZ/fMnU7d42VjcnN7P69uzM5irV9VkdFAd3fv9V4wbfb9n6zOEeK572XvhhyLzv09f9nrfrz8pDoB/033G+715EQmbPfLxg4I3eNwYO/dgRv1pi+YJFWQexT9uj70ethvh//mKXDeuR86Y9iO6ldqNWNpzKkbKyft5daGSH5VooVSZxLF047ALQP3NWum9d739ip4jYc9vSL6PHHGg8Di75aVJra8MKcxBpUQbtQv/ltxsMA0o2sQbLdGO/iNjv9BrMUqWWu/5SPXCNynZAZNkI+rtxs3dFq5G1txsfk0ffo+dM109DlG/Q7Y2k4ujIfVSJV9G/224uDjF/jkKGpa9a6XjVmhJfm3fIY98Tv+P3EB5N76YC5SQplIpn44lMr5B5f6OcD9rm+9Q1648eynl8RZfpbUJe9ja9bG6x6UtgP30AI0whliG2FEidTAt9Oro6GwB5rB8U8vG62f4L1twnZfA/3xAcIqDLILPI+8A0ORVpoUFbOyD2WII8nX99OndgH19ix0n1RSA4KfIUiYaIfa1Z/8MDgMo2pXIgBl/evGR6d9F1alHEeUyxv3IycqWYgsu1gNYsmEMLRaw7uHFLRlUCFVeZBrdowDEC5crrFoyrXUI1LpgS7tyRo1hMDY2cft7YW6BYUCoTUOxAAeq/rTECyhT7geZRiiSEO1W6tmFoM9ONgVxWuBjBMjG3lksEXZkpU5wkd+cYcnpuoL5QNLbBtTxfHCqnp4gRxoXLIKcSYJwCYBNJQo3Msi2cS8BOKEIn4NmBi0yMw6a0K4uHhnP5Up8dPOEiaRDBi8H5sMmDFejr6aM1GI1fSQXihQYO7oO8etWSEbh6j/pGmngM4Vzqi2CJfm3sx1MzJhj9tnF9fX4XxBl86RqXJaFZAc1BlQtGW8gHAAAAAElFTkSuQmCC',
@@ -129,7 +129,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'AI编程工具',
+    title: '👨‍💻 AI编程工具',
     items: [
       {
         icon: '',
@@ -183,7 +183,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'AI搜索引擎',
+    title: '🔍 AI搜索引擎',
     items: [
       {
         icon: '',
@@ -209,7 +209,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '大模型服务商',
+    title: '🧠 大模型服务商',
     items: [
       {
         icon: '',
@@ -260,7 +260,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'AI开发平台',
+    title: '🛠️ AI开发平台',
     items: [
       {
         icon: '',
@@ -291,7 +291,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'MCP服务',
+    title: '🔌 MCP服务',
     items: [
       {
         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA10lEQVR4AXXPIWyDQBhH8ee9DzUk9b71l5ypmZqeqT07ixdIDBKfulnU+cyiq1Cc+y9ky9HvYM/+1EOmeRxn5SwGgHCMjqrrKt6P0OMk6ULMaG0YFGl26FZrQROhRP9nT/UA7Su6bBHOb+A39K82SHL0Ent7aIlaqFfcW6qYdEbi0ILELzq81BX2SbNiwknfhTWQVlSSFIiFzdvKBT1Ly3hjXq6FZey5S1qMZdSJ69CSzWK6AbTZDErT15isCZmMFdgbK7A2VuAH4X9MJ+4WjdZEi0Yf2voBIRlaTuvjYuQAAAAASUVORK5CYII=',

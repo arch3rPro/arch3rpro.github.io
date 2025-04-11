@@ -5,6 +5,8 @@ description: 本文介绍了 CherryStudio，一款集多模型对话、知识库
 date: 2025-04-01 00:00:42
 tags:
   - Cherry-Studio
+  - AI助手
+  - 多模型对话
 articleGPT: CherryStudio 是一款集多模型对话、知识库管理、AI 绘画、翻译等功能于一体的全能 AI 助手平台。
 ---
 

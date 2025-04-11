@@ -2,7 +2,7 @@ import type { NavData } from '../../.vitepress/theme/types'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '入门推荐',
+    title: '🚀 入门推荐',
     items: [
       {
         icon: '',
@@ -57,7 +57,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '线上学习',
+    title: '📚 线上学习',
     items: [
       {
         icon: '',
@@ -128,7 +128,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '优质文章',
+    title: '📝 优质文章',
     items: [
       {
         icon: '',
@@ -152,7 +152,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAArCAMAAADWg4HyAAAABGdBTUEAALGPC/xhBQAAACBjSFJN%0AAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC2VBMVEX///9ox+Nox+Nox+No%0Ax+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Nox+Njvt9WpdRox+Nox+No%0AxuNPls9hud1ox+Nox+NWo9Vox+Nox+NkweBOlc5ox+Nox+Nox+NetNtardhox+Nox+NVo9RTn9Jo%0Ax+Nox+Nox+Niut1mw+Fox+Nox+Nox+NnxOJSndFguN1ox+Nox+NnxuJPlc5csNpox+Nox+NmxOJN%0AkMtYqdZox+Nox+Njvt9SndFOk80/brRWo9Rox+Nox+Nes9tPmNBKicZUoNNox+Nox+NXpdVCdLlC%0Adblox+Nox+Nox+Nkvt9SnNI6X6tUodNox+Nox+NAbrVVotRox+Nox+Nox+Nox+Nhud5Ol85EebxJ%0AicdQmdBox+Nox+Nox+NQmM9Plc9BcrdFfsBMkc1XpdVlw+Fox+NVpNQ8Y65Eer1Mkc1ox+NZq9hb%0Artlox+Njvd9Ig8JAcrhox+NVotRZq9hDdrpZptBox+NTn9JCdbo1UaJmw+FftNllweBox+NPmc9H%0Ag8JAa7A6X6pLi8hivN5ox+Nox+NMisRMj8o+arJhuN1ox+Nox+NKiMY+a7M9ZrBgt9xox+Nox+NE%0AeLw3VqVNj8s8Za9Ljcliut5ox+Nox+NRm9FBc7g0UKFHfrxNkcxKicdPlc5hud1ox+NWpdU0UKFL%0Ahb9Oksw5XapMj8tNks5ox+NetNs0UKFfttw6YKw8ZK5Mkc1ox+NnxeJQmdFIg8M3V6VJhL87Y61D%0Aer1ox+NftdxOlM47YaxBbrNIg8Faq9Zox+NYqtc6X6s/a7Fivd9nxuJXqNVQls0/aa9IhMNWo9RA%0AcLVIgsA1U6Nox+M7ZK45X6s4Wqg6X6tMkc04WqdRmtA0UKE2VKM4WaZSm89XpdVmw+E2VKQ0UKE1%0AUqI3V6Y0UaI2VqU0UaE4XKk2VaQ4W6g1UqM1UaL///95W8PrAAAA5nRSTlMAI6gBBOVL2r9BJpxf%0A4Q6wVDSUwfXQguX86xNs9jF46PxHEKLu8VvL9vhncuLr520csub57EPW5vzvYnHm/PNTiOn4/P71%0AOYTu+/33Axb0/f26Id7p+f73WWn+5KR7H+Tr/P38jTCvbvv8/vBCOc3O9f7iCSjf8M3p/ZXd9vL9%0AueD3/f7m6ujI+/35/vzqmtL3/P7sUq79/f7sxQX9/vz+/N4tL/n+9e78/fYrtPXkT/v+82k17UNp%0A/vdSd+b6/fWv9CqH7fzyzPUQZO/7xZQkzj2T/Vfp2ChXJ4nBrgGc+gFv69fun1ktTBcAAAABYktH%0ARACIBR1IAAAACXBIWXMAACjoAAAo6AFM2ZYMAAAAB3RJTUUH5QIGBgo7mp9RMQAAAnJJREFUOMuN%0A0/VbFEEYB/CRu9fi7HpV9M4WBQsUjLNOUcQubDwLsVuss7u7Fbu7u7u7W2/0QMX/wHdmAXnc3bv9%0A/jA7zz6fnXhnhzG9ZPAzMaMxQ0bDlmXKbHhgM0AWozYrgL9RawHIlt2gzQEAOY3RXEQht7Gd5clL%0ANp8hm78AFiRcyAAtDIABZIv4lKaiAFa0WQGK+aLFS9CIJRFLAZT2VYEyogRlEQMBynkvQPkgQYMR%0A0VYBKnqjlSoLCVVCyGKoV1u1mqRhARhOtjrU0N9/TSmhFi3WbUesDXV0aV2F1quP6OANEBtChJ5t%0ApNDGkTR9E/7djlF0bk2baVGLMn9zsStswXlLjGrFWITW7WjdRtC27SR1/OC8PUZ3YKyj1jr8BQ2N%0AlBQ7cc49js5mxrpAVxXtFkO0u1OhPbhIz16M9Y6BPiobS9TaV8q4fpLy/gPYwEEAg1XWj+wQSe1D%0AFcqHDR8xchRAkMqOBoiXdExiCuVjLePGR9MQKkvLnSCoKymV8okQ73SGwSSVpe8nE52SJvnUadOp%0AgDNgpta4sxBn/6N8TvDceYjzYYHKLqQbhvgznV202LMEcSksU9nlwq5IR1eGr+LuOFy9Zq3K0nW0%0A4bo0ud61YSM9EnDTZvURbwHYittS5PYdO11u0dm1e4/Wb7YX9qXa/QcOHpKdpMNHNP/eo3AMXYo9%0AfuKk0jl1mmnnzNlz56W4wC4q9NJlHcpMV65e+yXIdXZDPBJv3mL6uX1HLuIuu0ft74T7zFsePBSF%0ASn70mNonIRbmPU+feTh//oLzP3GBL5mvvHr95u279zwZP8T6tDIfP33+8vXbfy//AniVKqiycpvD%0AAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTAyLTA1VDIyOjEwOjU5KzA4OjAwTSkUqwAAACV0RVh0%0AZGF0ZTptb2RpZnkAMjAyMS0wMi0wNVQyMjoxMDo1OSswODowMDx0rBcAAAAgdEVYdHNvZnR3YXJl%0AAGh0dHBzOi8vaW1hZ2VtYWdpY2sub3JnvM8dnQAAABh0RVh0VGh1bWI6OkRvY3VtZW50OjpQYWdl%0AcwAxp/+7LwAAABd0RVh0VGh1bWI6OkltYWdlOjpIZWlnaHQANDMQsl6lAAAAFnRFWHRUaHVtYjo6%0ASW1hZ2U6OldpZHRoADQz6B2eKAAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4A%0AAAAXdEVYdFRodW1iOjpNVGltZQAxNjEyNTM0MjU5xhqKbwAAABJ0RVh0VGh1bWI6OlNpemUAMzI0%0AMEJCaUCscQAAAEd0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL2FwcC90bXAvaW1hZ2VsYy9pbWd2aWV3%0AMl8xMF8xNjA5OTAzNTUxNzc3OTU0MV80OF9bMF0h5or5AAAAAElFTkSuQmCC',
         title: '白阁文库',
         desc: '白泽Sec团队维护的一个漏洞POC和EXP披露以及漏洞复现的开源项目',
-        link: 'hhttps://baizesec.github.io/bylibrary/'
+        link: 'https://baizesec.github.io/bylibrary/'
       },
       {
         icon: '',
@@ -182,7 +182,7 @@ export const NAV_DATA: NavData[] = [
   },
 
   {
-    title: '知识分享',
+    title: '🔍 知识分享',
     items: [
       {
         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAV1BMVEVHcEz9/f3////+/v7////////////////////8/Pz////7+/v////////j4+PAwcEXGx4AAAA2OTvNzs5PUVMJEBRoamvy8vKGh4iqq6y6u7skJyqbm5wL0Q92AAAADnRSTlMAM4fC6/+GX2Ua3xlAQdVODV8AAAEbSURBVHgBfVMHEoMwDGNv0oi9/v/OxlbZd1UHIAXLyvAO+EEYxXEUJr73ROqEHVF2k/IivqEoT62KX6h3rT45c9xV1MqD+Fg07f6Qq7j7mQ7W9hjGn69oGe/HCb0V9JjIpE5khhmwO9Avmshl19caSofcCOt7iVya3t5FiHHghay50vHmGqplA6O9EhiMM1JTGYJB/pceIq2tC7xCGIpTvEm8CcCsgXuKUtZ2Yru5Yh8OmQYRI21ocp6tS7Owuc44RhsKJCZWQ3rmkFY9E05CC9CTxQdAivicPulBaDNxyKBJZIPsyyUhJNC+bNl1yTbnuTUahksmyPmgqwZM+1P52kLm3ya6byGifG7N3Lsiu27q1HvCT3gcAv+gvjynGh9vzKoUAAAAAElFTkSuQmCC',
@@ -211,7 +211,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '安全博客',
+    title: '📝 安全博客',
     items: [
       {
         icon: '',
@@ -255,7 +255,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '在线靶机',
+    title: '🎯 在线靶机',
     items: [
       {
         icon: '',
@@ -309,7 +309,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'APT攻防',
+    title: '🛡️ APT攻防',
     items: [
       {
         icon: '',
@@ -356,7 +356,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'CTF竞赛',
+    title: '🏆 CTF竞赛',
     items: [
       {
         icon: '',

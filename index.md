@@ -22,17 +22,17 @@ features:
   - icon: 🧠
     title: AI笔记
     details: 探索AI技术前沿<small>（LLM/CV/NLP）</small><br />分享AI实践与应用心得
-    link: /review
+    link: /software/cherrystudio
     linkText: AI笔记应用
   - icon: 💡
     title: Workflow
     details: 在工作中用到的一切<small>（常用库/工具/奇淫技巧等）</small><br />提高工作效率
-    link: /workflow/style-guide
+    link: /efficiency
     linkText: 常用工具库
   - icon: 🧰
     title: 网络安全
     details: 工欲善其事，必先利其器<br />记录渗透和日常所用到的工具、软件、插件、扩展等
-    link: /efficiency/mac
+    link: /pentest-tools
     linkText: 渗透工具库
 ---
 

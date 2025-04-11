@@ -1,10 +1,11 @@
 ---
 sort: 1
-title: "1-项目简介"
-description: "CherryStudio 是一款集多模型对话、知识库管理、AI 绘画、翻译等功能于一体的全能 AI 助手平台"
+title: 1-项目简介
+description: 本文介绍了 CherryStudio，一款集多模型对话、知识库管理、AI 绘画、翻译等功能于一体的 AI 助手平台。它支持多种文件格式导入、多服务商模型统一管理，并提供高度自定义界面和强大的数据安全保障，适用于知识管理、多模型创作、翻译办公和创意设计等多种场景。
 date: 2025-04-01 00:00:42
-tags: ["Cherry-Studio"]
-articleGPT: 这是由GPT形成的AI概述，暂时还是手动录入的，可以在本地结合Obsidian的AI插件生成。
+tags:
+  - Cherry-Studio
+articleGPT: CherryStudio 是一款集多模型对话、知识库管理、AI 绘画、翻译等功能于一体的全能 AI 助手平台。
 ---
 
 # 项目简介

@@ -1,6 +1,6 @@
 ---
 sort: 3
-title: "关闭mds_stores"
+title: "Mac系统优化-关闭mds_stores"
 description: ""
 date: 2025-02-12 12:23:42
 tags: ["MacOS"]

@@ -33,14 +33,14 @@ export const nav: DefaultTheme.NavItem[] = [
     {
         text: '软件推荐',
         items: [
-            {
-                text: '效率工具',
-                items: [
-                    { text: 'Mac 平台', link: '/efficiency/mac/terminal' },
-                    { text: 'Windows 平台', link: '/efficiency/windows/keymap' },
-                    { text: '实用软件清单', link: '/efficiency/recommend/browser' },
-                ]
-            },
+            // {
+            //     text: '效率工具',
+            //     items: [
+            //         { text: 'Mac 平台', link: '/efficiency/mac/terminal' },
+            //         { text: 'Windows 平台', link: '/efficiency/windows/keymap' },
+            //         { text: '实用软件清单', link: '/efficiency/recommend/browser' },
+            //     ]
+            // },
             {
                 text: 'AI工具',
                 items: [

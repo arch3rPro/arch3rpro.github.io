@@ -3,18 +3,17 @@ layout: home
 layoutClass: 'm-page-layout'
 
 hero:
-  name: 矛·盾 武器库
+  name: 矛·盾 武器库 v3.0
   text: Pentest-Windows
-  tagline: 一个开箱即用的windows渗透测试环境
+  tagline: 一个开箱即用的windows渗透测试环境<br /><b class="dynamic-text">首个支持Mac M芯片的武器库</b>
   image:
     src: /download/DeskTop.png
-    alt: 茂茂物语
+    alt: 武器库
   actions:
     - text: 项目地址
       link: https://github.com/arch3rPro/Pentest-Windows
       theme: brand
     - text: 文档教程
-      link: /Pentest-Windows
       theme: alt
 features:
   - icon:
@@ -22,14 +21,14 @@ features:
       width: 64px
       height: 64px
     title: VMware Workstation
-    details: x64 | VM虚拟机 | Mac Intel芯片 <br /><small>MD5sum：1F3A96A3BFC458F7</small><br /><small class="bottom-small">文件大小：8.55GB | 解压后：23.2GB</small>
+    details: x64 | VM虚拟机 | Mac Intel芯片 <br /><small>适配中</small><br />预计5月发布
     linkText: 即将上线
   - icon:
       src: /download/Fusion.svg
       width: 64px
       height: 64px
     title: MacOS Fusion
-    details: arm64 | Mac M系芯片 | Fusions  <br /><small>MD5sum：1CE7B156A60D0E41</small><br /><small class="bottom-small">文件大小：13.87GB | 解压后：39.85GB</small>
+    details: arm64 | Mac M系芯片 | Fusions  <br /><small>虚拟机文件SHA-256：9E076D2E3969A3253895F4306D4BF667FD46C4EA28EE47107DDAC6CC390268CB</small><br /><small class="bottom-small">文件大小：13.87GB | 解压后：39.85GB</small>
     link: https://pan.baidu.com/s/1zX4VapfYvm2j3Jga1oLdCA?pwd=fr26
     linkText: 点击下载
   - icon:
@@ -68,6 +67,23 @@ features:
   transform: translate(-50%, -50%) rotate(666turn);
   transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
 } */
+
+/* 动态文字效果 - 渐变色动画（柔和版） */
+.dynamic-text {
+  background: linear-gradient(90deg, #3498db, #2980b9, #8e44ad, #9b59b6, #3498db);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow-text-animation 8s ease infinite;
+  font-weight: bold;
+  text-shadow: 0 0 2px rgba(0,0,0,0.05);
+}
+
+@keyframes rainbow-text-animation {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
 
 /* 卡片悬停交互效果
    1. 主卡片动画：0.4秒缓动过渡所有属性

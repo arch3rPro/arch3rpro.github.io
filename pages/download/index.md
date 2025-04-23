@@ -23,15 +23,14 @@ features:
       height: 64px
     title: VMware Workstation
     details: x64 | VM虚拟机 | Mac Intel芯片 <br /><small>MD5sum：1F3A96A3BFC458F7</small><br /><small class="bottom-small">文件大小：8.55GB | 解压后：23.2GB</small>
-    link: /
     linkText: 即将上线
   - icon:
       src: /download/Fusion.svg
       width: 64px
       height: 64px
     title: MacOS Fusion
-    details: arm64 | Mac M系芯片 | Fusions  <br /><small>MD5sum：1CE7B156A60D0E41</small><br /><small class="bottom-small">文件大小：10.23GB | 解压后：32.5GB</small>
-    link: /
+    details: arm64 | Mac M系芯片 | Fusions  <br /><small>MD5sum：1CE7B156A60D0E41</small><br /><small class="bottom-small">文件大小：13.87GB | 解压后：39.85GB</small>
+    link: https://pan.baidu.com/s/1zX4VapfYvm2j3Jga1oLdCA?pwd=fr26
     linkText: 点击下载
   - icon:
       src: /download/Parallels.svg
@@ -39,7 +38,6 @@ features:
       height: 64px
     title: Parallels Desktop
     details: arm64 | Mac M系芯片 | Parallels  <br /><small>适配中</small><br />预计6月发布
-    link: /
     linkText: 敬请期待
   - icon:
       src: /download/Qemu.svg
@@ -47,7 +45,6 @@ features:
       height: 64px
     title: Promox-VE KVM
     details: x64 | KVM虚拟机 | Qemu或PVE <br /><small>适配中</small><br />预计6月发布
-    link: /
     linkText: 敬请期待
   - icon:
       src: /download/Virtualbox.svg
@@ -55,7 +52,6 @@ features:
       height: 64px
     title: VirtualBox OVMF
     details: x64 | VM虚拟机 | 导入VirtualBox <br /><small>适配中</small><br />预计6月发布
-    link: /
     linkText: 敬请期待
 ---
 

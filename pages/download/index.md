@@ -5,7 +5,7 @@ layoutClass: 'm-page-layout'
 hero:
   name: 矛·盾 武器库 v3.0
   text: Pentest-Windows
-  tagline: 一个开箱即用的windows渗透测试环境<br /><b class="dynamic-text">首个支持Mac M芯片的武器库</b>
+  tagline: 一个开箱即用的windows渗透测试环境<br /><b class="dynamic-text">首个适配Mac M芯片的武器库</b>
   image:
     src: /download/DeskTop.png
     alt: 武器库

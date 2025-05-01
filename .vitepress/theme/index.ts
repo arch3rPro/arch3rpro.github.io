@@ -1,13 +1,14 @@
 // https://vitepress.dev/guide/custom-theme
 import { h, watch } from 'vue'
 import type { Theme } from 'vitepress'
-import { useData, EnhanceAppContext } from 'vitepress'
+import { useData, EnhanceAppContext, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import comment from './components/comment.vue'
 import imageViewer from './components/imageViewer.vue'
 import footBefore from './components/footBefore.vue'
 import MyLayout from './components/MyLayout.vue'
 import DataPanel from "./components/DataPanel.vue"
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 
 import './styles/index.scss'
 
@@ -42,6 +43,30 @@ if (typeof window !== 'undefined') {
 export default {
   extends: DefaultTheme,
 
+  setup() {
+    // Get frontmatter and route
+    const { frontmatter } = useData();
+    const route = useRoute();
+        
+    // giscus配置
+    giscusTalk({
+      repo: 'arch3rPro/arch3rpro.github.io', //仓库
+      repoId: 'R_kgDOOQUWPA', //仓库ID
+      category: 'General', // 讨论分类
+      categoryId: 'DIC_kwDOOQUWPM4Cpqj0', //讨论分类ID
+      mapping: 'pathname',
+      inputPosition: 'bottom',
+      lang: 'zh-CN',
+      }, 
+      {
+        frontmatter, route
+      },
+      //默认值为true，表示已启用，此参数可以忽略；
+      //如果为false，则表示未启用
+      //您可以使用“comment:true”序言在页面上单独启用它
+      true
+    );
+  },
   // Layout: MyLayout, 
   Layout: () => {
     const props: Record<string, any> = {}

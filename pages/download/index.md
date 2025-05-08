@@ -36,8 +36,9 @@ features:
       width: 64px
       height: 64px
     title: Parallels Desktop
-    details: arm64 | Mac M系芯片 | Parallels  <br /><small>适配中</small><br />预计6月发布
-    linkText: 敬请期待
+    details: arm64 | Mac M系芯片 | Parallels  <br /><small>虚拟机文件SHA-256：47E5B3EAFEB9E28C5ECA6C5A381D35206475C7C5F42CE46C5B0D41E749AAE6C7</small><br /><small class="bottom-small">文件大小：19.84GB | 解压后：38.17GB</small>
+    link: https://pan.baidu.com/s/1iVvDj0-RAV9xX8Ttd2o_PA?pwd=e26n
+    linkText: 点击下载
   - icon:
       src: /download/Qemu.svg
       width: 64px

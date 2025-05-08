@@ -7,7 +7,7 @@ hero:
   text: Pentest-Windows
   tagline: 一个开箱即用的windows渗透测试环境<br /><b class="dynamic-text">首个适配Mac M芯片的武器库</b>
   image:
-    src: /download/DeskTop.png
+    src: /download/Desktop-v3.png
     alt: 武器库
   actions:
     - text: 项目地址

@@ -3,7 +3,7 @@ layout: home
 layoutClass: 'm-page-layout'
 
 hero:
-  name: 矛·盾 武器库 v3.0
+  name: 矛·盾 武器库 v3.2
   text: Pentest-Windows
   tagline: 一个开箱即用的windows渗透测试环境<br /><b class="dynamic-text">首个适配Mac M芯片的武器库</b>
   image:
@@ -16,13 +16,6 @@ hero:
     - text: 文档教程
       theme: alt
 features:
-  - icon:
-      src: /download/VMware.svg
-      width: 64px
-      height: 64px
-    title: VMware Workstation
-    details: x64 | VM虚拟机 | Mac Intel芯片 <br /><small>适配中</small><br />预计5月发布
-    linkText: 即将上线
   - icon:
       src: /download/Fusion.svg
       width: 64px
@@ -40,12 +33,21 @@ features:
     link: https://pan.baidu.com/s/1iVvDj0-RAV9xX8Ttd2o_PA?pwd=e26n
     linkText: 点击下载
   - icon:
+      src: /download/VMware.svg
+      width: 64px
+      height: 64px
+    title: VMware Workstation
+    details: x64 | VM虚拟机 | Mac Intel芯片 <br /><small>虚拟机文件SHA-256：3E86BCE3950521EAC112CDA840B79012614AE456A621C174F43608E58DEBFE93</small><br /><small class="bottom-small">文件大小：13.71GB | 解压后：39.85GB</small>
+    link: https://pan.baidu.com/s/1L8-9jhvvMp6jJ4evTTqezQ?pwd=jdkd
+    linkText: 点击下载
+  - icon:
       src: /download/Qemu.svg
       width: 64px
       height: 64px
     title: Promox-VE KVM
-    details: x64 | KVM虚拟机 | Qemu或PVE <br /><small>适配中</small><br />预计6月发布
-    linkText: 敬请期待
+    details: x64 | KVM虚拟机 | Qemu或PVE <br /><small>虚拟机文件SHA-256：1E9850D05FF0976EACB5171B6D568ECE592639439F49225D3E3D2A607D2AD8EB</small><br /><small class="bottom-small">文件大小：18.43GB </small>
+    link: https://pan.baidu.com/s/1iTCPkbPqiM9rrpzCf8EBVw?pwd=4kgb
+    linkText: 点击下载
   - icon:
       src: /download/Virtualbox.svg
       width: 64px

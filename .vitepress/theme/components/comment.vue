@@ -18,7 +18,7 @@ const { isDark, frontmatter } = useData();
 
 // params generate in https://giscus.app/zh-CN
 const giscusConfig: GiscusProps = reactive({
-	repo: import.meta.env.VITE_GISCUS_REPO,
+	repo: "arch3rPro/arch3rpro.github.io",
 	repoId: import.meta.env.VITE_GISCUS_REPO_ID,
 	category: "Q&A",
 	categoryId: import.meta.env.VITE_GISCUS_CATEGORY_ID,
@@ -48,6 +48,10 @@ watch(
 </script>
 <style>
 .doc-comments {
+	/* padding: 20px; */
+	margin-top: 24px;
+	margin-bottom: 48px;
 	border-top: 1px solid var(--vp-c-divider);
+	padding-top: 24px;
 }
 </style>

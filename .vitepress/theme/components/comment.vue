@@ -1,12 +1,3 @@
-<template>
-	<div class="doc-comments">
-		<Giscus v-if="showComment" :repo="giscusConfig.repo" :repo-id="giscusConfig.repoId"
-			:category="giscusConfig.category" :category-id="giscusConfig.categoryId" :mapping="giscusConfig.mapping"
-			:reactions-enabled="giscusConfig.reactionsEnabled" :emit-metadata="giscusConfig.emitMetadata"
-			:input-position="giscusConfig.inputPosition" :theme="isDark ? 'dark' : 'light'" :lang="giscusConfig.lang"
-			:loading="giscusConfig.loading" :key="md5(route.path)" />
-	</div>
-</template>
 <script lang="ts" setup>
 import { reactive, ref, watch, nextTick } from 'vue'
 import { useData, useRoute } from 'vitepress'
@@ -46,12 +37,3 @@ watch(
 );
 
 </script>
-<style>
-.doc-comments {
-	/* padding: 20px; */
-	margin-top: 24px;
-	margin-bottom: 48px;
-	border-top: 1px solid var(--vp-c-divider);
-	padding-top: 24px;
-}
-</style>

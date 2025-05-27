@@ -48,10 +48,6 @@ watch(
 </script>
 <style>
 .doc-comments {
-	/* padding: 20px; */
-	margin-top: 24px;
-	margin-bottom: 48px;
 	border-top: 1px solid var(--vp-c-divider);
-	padding-top: 24px;
 }
 </style>

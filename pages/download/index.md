@@ -55,6 +55,13 @@ features:
     title: VirtualBox OVMF
     details: x64 | VM虚拟机 | 导入VirtualBox <br /><small>适配中</small><br />预计6月发布
     linkText: 敬请期待
+  - icon:
+      src: /download/Hyper-V.svg
+      width: 64px
+      height: 64px
+    title: Hyper-V VHDX
+    details: x64 | Hyper-V虚拟机 | 支持Ventoy启动器本机启动 <br /><small>适配中</small><br />预计6月发布
+    linkText: 敬请期待
 ---
 
 <style>

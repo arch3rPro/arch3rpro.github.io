@@ -49,19 +49,21 @@ features:
     link: https://pan.baidu.com/s/1iTCPkbPqiM9rrpzCf8EBVw?pwd=4kgb
     linkText: 点击下载
   - icon:
+      src: /download/Hyper-V.svg
+      width: 64px
+      height: 64px
+    title: Hyper-V VHDX
+    details: x64 | Hyper-V虚拟机 | 支持Ventoy启动器本机启动 <br /><small>虚拟机文件SHA-256：C97F7653689BF4D8005F661EB1BA6E9D2095DCBC673BB6767D1042348770E4E7</small><br /><small class="bottom-small">文件大小：13.79GB </small>
+    link: https://pan.baidu.com/s/1iLYh7n1PCeUOOWofeKEOvA?pwd=7qty
+    linkText: 点击下载
+  - icon:
       src: /download/Virtualbox.svg
       width: 64px
       height: 64px
     title: VirtualBox OVMF
     details: x64 | VM虚拟机 | 导入VirtualBox <br /><small>适配中</small><br />预计6月发布
     linkText: 敬请期待
-  - icon:
-      src: /download/Hyper-V.svg
-      width: 64px
-      height: 64px
-    title: Hyper-V VHDX
-    details: x64 | Hyper-V虚拟机 | 支持Ventoy启动器本机启动 <br /><small>适配中</small><br />预计6月发布
-    linkText: 敬请期待
+
 ---
 
 <style>

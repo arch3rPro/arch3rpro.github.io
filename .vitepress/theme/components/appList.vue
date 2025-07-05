@@ -40,7 +40,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { apps, categories } from '../config/apps'
+import { apps } from '../config/apps'
 import '../styles/appList.scss'
 
 const appList = ref(apps)

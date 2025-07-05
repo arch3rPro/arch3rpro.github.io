@@ -17,7 +17,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/adguardhome-sync.png",
     "website": "https://github.com/bakito/adguardhome-sync",
-    "category": "安全",
+    "category": "Nas工具",
     "tags": ["安全"]
   },
   {
@@ -27,7 +27,7 @@ export const apps: App[] = [
     "version": "stable",
     "icon": "/appstore/icons/affine.png",
     "website": "https://affine.pro",
-    "category": "实用工具",
+    "category": "文档与内容管理",
     "tags": ["实用工具"]
   },
   {
@@ -37,7 +37,7 @@ export const apps: App[] = [
     "version": "3.45.0",
     "icon": "/appstore/icons/alist.png",
     "website": "https://alist.nn.ci/",
-    "category": "实用工具",
+    "category": "Nas工具",
     "tags": ["实用工具"]
   },
   {
@@ -47,7 +47,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/ani-rss.png",
     "website": "https://docs.wushuo.top/",
-    "category": "RSS",
+    "category": "Nas工具",
     "tags": ["rss"]
   },
   {
@@ -57,7 +57,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/arcane.png",
     "website": "https://arcane.ofkm.dev/",
-    "category": "实用工具",
+    "category": "容器管理",
     "tags": ["实用工具"]
   },
   {
@@ -67,7 +67,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/blinko.png",
     "website": "https://blinko-demo.vercel.app",
-    "category": "实用工具",
+    "category": "文档与内容管理",
     "tags": ["实用工具"]
   },
   {
@@ -77,7 +77,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/cup.png",
     "website": "https://cup.sergi0g.dev/",
-    "category": "实用工具",
+    "category": "容器管理",
     "tags": ["实用工具"]
   },
   {
@@ -87,7 +87,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/deepseek-free-api.png",
     "website": "https://platform.deepseek.com/",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -97,7 +97,7 @@ export const apps: App[] = [
     "version": "host-network",
     "icon": "/appstore/icons/demo.png",
     "website": "https://github.com/okxlin/appstore",
-    "category": "建站",
+    "category": "容器管理",
     "tags": ["建站"]
   },
   {
@@ -107,7 +107,7 @@ export const apps: App[] = [
     "version": "1.1.1",
     "icon": "/appstore/icons/dify.png",
     "website": "https://dify.ai/",
-    "category": "AI / 大模型",
+    "category": "AI 与智能应用",
     "tags": ["ai / 大模型"]
   },
   {
@@ -117,7 +117,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/diun.png",
     "website": "https://crazymax.dev/diun/",
-    "category": "实用工具",
+    "category": "容器管理",
     "tags": ["实用工具"]
   },
   {
@@ -127,7 +127,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/docker-copilot.png",
     "website": "https://github.com/onlyLTY/dockerCopilot",
-    "category": "实用工具",
+    "category": "容器管理",
     "tags": ["实用工具"]
   },
   {
@@ -137,7 +137,7 @@ export const apps: App[] = [
     "version": "0.20.4",
     "icon": "/appstore/icons/docmost.png",
     "website": "https://docmost.com/",
-    "category": "建站",
+    "category": "文档与内容管理",
     "tags": ["建站"]
   },
   {
@@ -147,7 +147,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/easytier.png",
     "website": "https://easytier.cn/",
-    "category": "实用工具",
+    "category": "安全与网络工具",
     "tags": ["实用工具"]
   },
   {
@@ -157,7 +157,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/git-sync.png",
     "website": "https://github.com/AkashRajpurohit/git-sync",
-    "category": "Git",
+    "category": "运维监控",
     "tags": ["git"]
   },
   {
@@ -167,7 +167,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/glance-agent.png",
     "website": "https://github.com/arch3rPro/Glance-Monitor",
-    "category": "实用工具",
+    "category": "运维监控",
     "tags": ["实用工具"]
   },
   {
@@ -177,7 +177,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/glm-free-api.png",
     "website": "https://open.bigmodel.cn/",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -187,7 +187,7 @@ export const apps: App[] = [
     "version": "main",
     "icon": "/appstore/icons/hexo.png",
     "website": "https://hexo.io/",
-    "category": "建站",
+    "category": "文档与内容管理",
     "tags": ["建站"]
   },
   {
@@ -197,7 +197,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/hubcmdui.png",
     "website": "https://github.com/dqzboy/Docker-Proxy",
-    "category": "Other",
+    "category": "容器管理",
     "tags": ["other"]
   },
   {
@@ -207,7 +207,7 @@ export const apps: App[] = [
     "version": "host",
     "icon": "/appstore/icons/jdxb.png",
     "website": "https://iepose.com/jdxb/pc/",
-    "category": "实用工具",
+    "category": "Nas工具",
     "tags": ["实用工具"]
   },
   {
@@ -217,7 +217,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/jimeng-free-api.png",
     "website": "https://jimeng.jianying.com/",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -227,7 +227,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/kali-linux.png",
     "website": "https://www.kali.org/",
-    "category": "开发工具",
+    "category": "安全与网络工具",
     "tags": ["开发工具"]
   },
   {
@@ -237,7 +237,7 @@ export const apps: App[] = [
     "version": "0.24.1",
     "icon": "/appstore/icons/karakeep.png",
     "website": "https://karakeep.app/",
-    "category": "书签管理",
+    "category": "文档与内容管理",
     "tags": ["书签管理"]
   },
   {
@@ -247,7 +247,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/keepassxc.png",
     "website": "https://keepassxc.org/",
-    "category": "实用工具",
+    "category": "Nas工具",
     "tags": ["实用工具"]
   },
   {
@@ -257,7 +257,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/kimi-free-api.png",
     "website": "https://platform.moonshot.cn/",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -267,7 +267,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/kspeeder.png",
     "website": "https://kspeeder.istoreos.com/",
-    "category": "镜像加速",
+    "category": "Nas工具",
     "tags": ["镜像加速"]
   },
   {
@@ -277,7 +277,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/linkwarden.png",
     "website": "https://linkwarden.app",
-    "category": "工具",
+    "category": "文档与内容管理",
     "tags": ["工具"]
   },
   {
@@ -287,7 +287,7 @@ export const apps: App[] = [
     "version": "1.77.16",
     "icon": "/appstore/icons/lobe-chat-data.png",
     "website": "https://lobehub.com",
-    "category": "AI / 大模型",
+    "category": "AI 与智能应用",
     "tags": ["ai / 大模型"]
   },
   {
@@ -297,7 +297,7 @@ export const apps: App[] = [
     "version": "host",
     "icon": "/appstore/icons/lucky.png",
     "website": "https://lucky666.cn/",
-    "category": "实用工具",
+    "category": "Nas工具",
     "tags": ["实用工具"]
   },
   {
@@ -307,7 +307,7 @@ export const apps: App[] = [
     "version": "2.0.3",
     "icon": "/appstore/icons/md.png",
     "website": "https://doocs.github.io/md/",
-    "category": "实用工具",
+    "category": "文档与内容管理",
     "tags": ["实用工具"]
   },
   {
@@ -317,7 +317,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/metaso-free-api.png",
     "website": "https://metaso.cn/",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -327,7 +327,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/minimax-free-api.png",
     "website": "https://platform.minimaxi.com/",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -337,7 +337,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/netbox.png",
     "website": "https://netbox.dev/",
-    "category": "实用工具",
+    "category": "安全与网络工具",
     "tags": ["实用工具"]
   },
   {
@@ -347,7 +347,7 @@ export const apps: App[] = [
     "version": "2.2.6",
     "icon": "/appstore/icons/netdata.png",
     "website": "https://www.netdata.cloud",
-    "category": "实用工具",
+    "category": "运维监控",
     "tags": ["实用工具"]
   },
   {
@@ -357,7 +357,7 @@ export const apps: App[] = [
     "version": "2.4.10",
     "icon": "/appstore/icons/next-terminal.png",
     "website": "https://next-terminal.typesafe.cn/",
-    "category": "工具",
+    "category": "运维监控",
     "tags": ["工具"]
   },
   {
@@ -367,7 +367,7 @@ export const apps: App[] = [
     "version": "1.12.4",
     "icon": "/appstore/icons/nezha.png",
     "website": "https://nezha.wiki/",
-    "category": "实用工具",
+    "category": "运维监控",
     "tags": ["实用工具"]
   },
   {
@@ -377,7 +377,7 @@ export const apps: App[] = [
     "version": "0.29.21",
     "icon": "/appstore/icons/npc.png",
     "website": "https://ehang-io.github.io/nps",
-    "category": "工具",
+    "category": "安全与网络工具",
     "tags": ["工具"]
   },
   {
@@ -387,7 +387,7 @@ export const apps: App[] = [
     "version": "0.29.21",
     "icon": "/appstore/icons/nps.png",
     "website": "https://ehang-io.github.io/nps",
-    "category": "工具",
+    "category": "安全与网络工具",
     "tags": ["工具"]
   },
   {
@@ -397,7 +397,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/nzbget.png",
     "website": "https://nzbget.net/",
-    "category": "实用工具",
+    "category": "多媒体管理",
     "tags": ["实用工具"]
   },
   {
@@ -407,7 +407,7 @@ export const apps: App[] = [
     "version": "openlist-ffmpeg",
     "icon": "/appstore/icons/openlist.png",
     "website": "https://github.com/OpenListTeam/OpenList",
-    "category": "实用工具",
+    "category": "多媒体管理",
     "tags": ["实用工具"]
   },
   {
@@ -417,7 +417,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/pairdrop.png",
     "website": "https://pairdrop.net/",
-    "category": "实用工具",
+    "category": "Nas工具",
     "tags": ["实用工具"]
   },
   {
@@ -427,7 +427,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/piclist.png",
     "website": "https://piclist.cn",
-    "category": "实用工具",
+    "category": "多媒体管理",
     "tags": ["实用工具"]
   },
   {
@@ -437,7 +437,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/qexo.png",
     "website": "https://www.oplog.cn/qexo/",
-    "category": "建站",
+    "category": "文档与内容管理",
     "tags": ["建站"]
   },
   {
@@ -447,7 +447,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/qwen-free-api.png",
     "website": "https://www.aliyun.com/product/bailian",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -457,7 +457,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/remmina.png",
     "website": "https://remmina.org/",
-    "category": "实用工具",
+    "category": "运维监控",
     "tags": ["实用工具"]
   },
   {
@@ -467,7 +467,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/resilio-sync.png",
     "website": "https://www.resilio.com/sync/",
-    "category": "实用工具",
+    "category": "Nas工具",
     "tags": ["实用工具"]
   },
   {
@@ -477,7 +477,7 @@ export const apps: App[] = [
     "version": "7.6.2",
     "icon": "/appstore/icons/safeline.png",
     "website": "https://waf-ce.chaitin.cn/",
-    "category": "实用工具",
+    "category": "安全与网络工具",
     "tags": ["实用工具"]
   },
   {
@@ -487,7 +487,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/spark-free-api.png",
     "website": "https://xinghuo.xfyun.cn/sparkapi",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -497,7 +497,7 @@ export const apps: App[] = [
     "version": "5.1.5",
     "icon": "/appstore/icons/starvpn.png",
     "website": "https://starvpn.cn/",
-    "category": "VPN",
+    "category": "Nas工具",
     "tags": ["vpn"]
   },
   {
@@ -507,7 +507,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/step-free-api.png",
     "website": "https://platform.stepfun.com/",
-    "category": "AI / 大模型",
+    "category": "LLM免费接口",
     "tags": ["ai / 大模型"]
   },
   {
@@ -517,7 +517,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/transmission.png",
     "website": "https://transmissionbt.com/",
-    "category": "实用工具",
+    "category": "多媒体管理",
     "tags": ["实用工具"]
   },
   {
@@ -527,7 +527,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/verysync.png",
     "website": "https://www.verysync.com/",
-    "category": "文件同步",
+    "category": "Nas工具",
     "tags": ["文件同步"]
   },
   {
@@ -537,7 +537,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/wud.png",
     "website": "https://getwud.github.io/wud/",
-    "category": "实用工具",
+    "category": "容器管理",
     "tags": ["实用工具"]
   },
   {
@@ -547,24 +547,7 @@ export const apps: App[] = [
     "version": "latest",
     "icon": "/appstore/icons/xiaomusic.png",
     "website": "https://xdocs.hanxi.cc/",
-    "category": "音乐",
+    "category": "多媒体管理",
     "tags": ["音乐"]
   }
-]
-
-export const categories = [
-  "安全",
-  "实用工具",
-  "RSS",
-  "AI / 大模型",
-  "建站",
-  "Git",
-  "Other",
-  "开发工具",
-  "书签管理",
-  "镜像加速",
-  "工具",
-  "VPN",
-  "文件同步",
-  "音乐"
 ] 

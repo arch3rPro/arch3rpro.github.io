@@ -15,6 +15,7 @@ import './styles/index.scss'
 import ArticleGPT from './components/ArticleGPT.vue';
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
+import AppList from './components/appList.vue'
 
 
  
@@ -63,7 +64,7 @@ export default {
       },
       //默认值为true，表示已启用，此参数可以忽略；
       //如果为false，则表示未启用
-      //您可以使用“comment:true”序言在页面上单独启用它
+      //您可以使用"comment:true"序言在页面上单独启用它
       true
     );
   },
@@ -93,6 +94,7 @@ export default {
 
     app.component('ArticleGPT', ArticleGPT);
     app.component('DataPanel' , DataPanel);
+    app.component('AppList', AppList);
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,

@@ -1,7 +1,6 @@
 .DS_Store
 .vscode
 .env
-.obsidian/
 node_modules/
 dist/
 heatmap-data.json
@@ -12,3 +11,6 @@ Clipper/
 .vitepress/cache/
 .vitepress/dist/
 .vitepress/build/
+
+# 处理应用的脚本
+process_apps.js

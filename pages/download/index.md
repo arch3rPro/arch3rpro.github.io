@@ -73,7 +73,21 @@ features:
 .m-page-layout .image-src {
   width: 100%;
   max-width: 480px;
+  transition: transform 0.3s ease-in-out;
 }
+
+/* 添加图片Havor左右摇摆效果 */
+.m-page-layout .image-src:hover {
+  animation: swing 0.6s ease-in-out infinite;
+}
+
+@keyframes swing {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  25% { transform: translate(-50%, -50%) rotate(-3deg); }
+  75% { transform: translate(-50%, -50%) rotate(3deg); }
+  100% { transform: translate(-50%, -50%) rotate(0deg); }
+}
+
 /*爱的魔力转圈圈*/
 /* .m-page-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);

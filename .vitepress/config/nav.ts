@@ -6,6 +6,10 @@ export const nav: DefaultTheme.NavItem[] = [
         link: '/download/'
     },
     {
+        text: '应用商店',
+        link: '/appstore/'
+    },
+    {
         text: '安全导航',
         link: '/nav',
     },

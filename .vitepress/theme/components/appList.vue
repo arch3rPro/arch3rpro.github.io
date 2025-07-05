@@ -28,7 +28,9 @@
           <div class="app-card-desc">{{ app.description }}</div>
         </div>
         <div class="app-card-footer">
-          <span class="app-card-category">{{ app.category }}</span>
+          <span class="app-card-category">
+            {{ Array.isArray(app.tags) ? app.tags.join(', ') : app.tags }}
+          </span>
           <a :href="app.website" class="app-card-link" target="_blank" rel="noopener noreferrer" @click.stop>官网 →</a>
         </div>
       </div>
@@ -64,12 +66,24 @@ const openWebsite = (url) => {
 }
 
 // 计算所有分类
+const categoryOrder = [
+  'LLM免费接口',
+  '文档与内容管理',
+  '安全与网络工具',
+  'AI 与智能应用',
+  '多媒体管理',
+  '运维监控',
+  'Nas工具',
+  '容器管理'
+]
 const allCategories = computed(() => {
   const set = new Set()
   appList.value.forEach(app => {
     if (app.category) set.add(app.category)
   })
-  return ['全部', ...Array.from(set)]
+  const ordered = categoryOrder.filter(cat => set.has(cat))
+  const rest = Array.from(set).filter(cat => !categoryOrder.includes(cat))
+  return ['全部', ...ordered, ...rest]
 })
 
 // 过滤卡片

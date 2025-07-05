@@ -33,16 +33,22 @@ features: []
   transition: transform 0.3s ease-in-out;
 }
 
-/* 添加图片Havor左右摇摆效果 */
-.m-appstore-layout .image-src:hover {
-  animation: swing 0.6s ease-in-out infinite;
+@keyframes swing-horizontal {
+  0% { transform: translate(-50%, -50%) translateX(0); }
+  10% { transform: translate(-50%, -50%) translateX(-12px); }
+  20% { transform: translate(-50%, -50%) translateX(12px); }
+  30% { transform: translate(-50%, -50%) translateX(-10px); }
+  40% { transform: translate(-50%, -50%) translateX(10px); }
+  50% { transform: translate(-50%, -50%) translateX(-8px); }
+  60% { transform: translate(-50%, -50%) translateX(8px); }
+  70% { transform: translate(-50%, -50%) translateX(-4px); }
+  80% { transform: translate(-50%, -50%) translateX(4px); }
+  90% { transform: translate(-50%, -50%) translateX(0); }
+  100% { transform: translate(-50%, -50%) translateX(0); }
 }
 
-@keyframes swing {
-  0% { transform: translate(-50%, -50%) rotate(0deg); }
-  25% { transform: translate(-50%, -50%) rotate(-3deg); }
-  75% { transform: translate(-50%, -50%) rotate(3deg); }
-  100% { transform: translate(-50%, -50%) rotate(0deg); }
+.m-appstore-layout .image-src:hover {
+  animation: swing-horizontal 0.6s ease-in-out infinite;
 }
 
 .m-appstore-layout .details small {

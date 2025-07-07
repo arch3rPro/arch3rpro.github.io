@@ -1,8 +1,8 @@
+![](./public/index.png)
+
 # Arch3rPro 个人博客
 
 基于 VitePress 构建的现代化个人博客网站，专注于技术分享、工具推荐和知识传播。
-
-![](./public/index.png)
 
 ## ✨ 主要功能
 

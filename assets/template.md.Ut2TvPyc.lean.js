@@ -1,0 +1,4 @@
+import{_ as s}from"./chunks/redirect.vue_vue_type_script_setup_true_lang.uffy7z2Z.js";import{_ as l,C as r,c,o as i,j as t,G as o,w as d}from"./chunks/framework.97i6h3Kv.js";const k=JSON.parse('{"title":"AI工具箱","description":"","frontmatter":{"sort":3,"title":"AI工具箱","showArticleMetadata":false},"headers":[],"relativePath":"template.md","filePath":"posts/template/index.md","lastUpdated":1743493436000}'),p={name:"template.md"};function m(_,e,u,f,x,C){const a=s,n=r("ClientOnly");return i(),c("div",null,[e[0]||(e[0]=t("div",{class:"info custom-block"},[t("p",{class:"custom-block-title"},"INFO"),t("pre",null,[t("code",null,`# 目录路由设置
+1. 修改sort数字进行排序
+2. 修改下方router进行路由设置
+`)])],-1)),o(n,null,{default:d(()=>[o(a,{route:"/introduce"})]),_:1})])}const v=l(p,[["render",m]]);export{k as __pageData,v as default};
